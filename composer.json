@@ -1,0 +1,21 @@
+{
+    "name": "euperia/php-stopforumspam",
+    "description": "A PHP Library for the StopForumSpam service (http://www.stopforumspam.com/)",
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew McCombe",
+            "email": "andrew@euperia.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Euperia\\": "src"}
+    }
+}
