@@ -27,11 +27,16 @@ To use the package you must make sure it is in your path.
     <?php
 
     use Euperia\Stopforumspam;
+    use Guzzle\Http\Client;
+
+    $client = new Client();
 
     $spamCheck = new Stopforumspam();
     $spamCheck->addEmail('sibleyjscxk@hotmail.com');
     if (false === $spam->check()) {
     //   fail
     }
+
+
 
 Enjoy!
